@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 290092348}
   - component: {fileID: 290092347}
   m_Layer: 0
-  m_Name: WheelCreator
+  m_Name: PoliceCreator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef63a410145a71146996323348b75ca1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WheelObject: {fileID: 1557210638267494, guid: 1400e21f9c28fbe4f8fc2db0f2a127ec,
+  PoliceObject: {fileID: 1796608746841020, guid: b8d4295e6d90e2340af482b36b176e6b,
     type: 2}
   ScaleMin: 0.2
   ScaleMax: 0.4
@@ -508,6 +508,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e071814a402c2a94eab6aea3661ae411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifetime: 3
+  cylinder: {fileID: 1896928400}
+  boom: {fileID: 1957497384628522, guid: 4738bbe8235d7c542925fb754aed3bdd, type: 2}
+  car: {fileID: 544304414}
+  default_color: {r: 0, g: 0, b: 0, a: 0}
+  active_red_color: 0
+  pause_time: 0
+  pause_time_flag: 0
 --- !u!1 &644636677
 GameObject:
   m_ObjectHideFlags: 0
