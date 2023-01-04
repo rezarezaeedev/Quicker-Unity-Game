@@ -15,7 +15,7 @@ public class Car : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
-		if(col.tag=="Wheel"){
+		if(col.tag=="Police"){
 			lifetime--;
 			print("Hey you lose a lifetime, and have " + lifetime + " lifetime");
 		}

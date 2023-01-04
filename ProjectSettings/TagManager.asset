@@ -9,6 +9,7 @@ TagManager:
   - Wheel
   - Bullet
   - BulletCreator
+  - Police
   layers:
   - Default
   - TransparentFX
